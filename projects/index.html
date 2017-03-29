@@ -3,13 +3,21 @@ layout: default
 title: Projects
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
-		<p (1) House Price Predictions </p>
+	
+		<p House Price Predictions </p>
 		<p (2) Loan Predictions </p>
 		<p> (3) Human Activity Recongnision </p>
 		<p> (4) Spam e-mail Identification </p>
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	  
+  <section class="no-padding" id="projects">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Projects</h2>
+                  <hr class="primary">
+                  <p>Data Science projects</p>
+              </div>
+          </div>
+      </div>
+</section>
 	

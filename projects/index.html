@@ -4,10 +4,10 @@ title: Projects
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	(1) House Price Predictions
-  (2) Loan Predictions
-  (3) Human Activity Recongnision
-  (4) Spam e-mail Identification
+		<p> (1) House Price Predictions </p>
+		<p> (2) Loan Predictions </p>
+		<p> (3) Human Activity Recongnision </p>
+		<p> (4) Spam e-mail Identification </p>
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}

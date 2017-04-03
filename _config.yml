@@ -1,3 +1,4 @@
-name: Sanat Das
-markdown: markdown
-permalink: /blog/:year/:month/:day/:title
+#name: Sanat Das
+#markdown: markdown
+#permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-slate
